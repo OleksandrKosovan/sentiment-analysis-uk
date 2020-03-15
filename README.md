@@ -30,3 +30,29 @@
 
 ### ІІ. Як я збирав дані?
 
+Для збору даних з вебсторінки я використовував бібліотеку [Beautiful Soup](https://en.wikipedia.org/wiki/Beautiful_Soup_(HTML_parser)). Але під час збору даних, я зустрівська з кількома проблемами.
+
+**1 проблема** 
+
+При використанні Beautiful Soup я отримував помилку: *503 Service Temporarily Unavailable*. Скоріше всього, hotline зробило обмеження, яке не дозволяє парсити сторінку звичними для цього підходами і це цілком логічно. Як я обійшов це обмеження? Я скористався [Selenium](https://selenium-python.readthedocs.io/) — інструмент для автоматизації роботи в web-браузері,  а саме використав [chromedriver](https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.chrome.webdriver). [Jupyter Notebook](https://github.com/OleksandrKosovan/sentiment-analysis-uk/blob/master/02-data-collections/02-scraping-test.ipynb)
+
+**2 проблема**
+
+Далеко не всі відгуки на сайті написані українською мовою, тому я вирішив виявляти український текст і тільки тоді його записувати. Для цього я скористався бібліотекою [langdetect](https://pypi.org/project/langdetect/), яка чудово справилася зі своїм завданням. [Jupyter Notebook](https://github.com/OleksandrKosovan/sentiment-analysis-uk/blob/master/02-data-collections/01-langdetect-test.ipynb)
+
+**3 проблема**
+
+Якщо відбирати тільки українськомовні тексти, то втрачається значна частина текстів. Тому є сенс скористатися Google Перекладачем. Я протестував три бібліотеки:
+
+- [googletrans](https://pypi.org/project/googletrans/) (*має обмеження на кількість запитів*)
+- [translate](https://pypi.org/project/translate/) (*не працює*)
+- [google.cloud.translate_v2](https://pypi.org/project/google-cloud-translate/) (*чудово працює. але потребує додаткових налаштувань на google cloud. Є платним. Я скористався пробним періодом.*)
+
+[Jupyter Notebook](https://github.com/OleksandrKosovan/sentiment-analysis-uk/blob/master/02-data-collections/01-langdetect-test.ipynb)
+
+[Cloud Translation documentation](https://cloud.google.com/translate/docs) є, дійсно, зручним інструментом. Також можна моніторити кількісно та якісно всі запити на API.
+
+![api](https://github.com/OleksandrKosovan/sentiment-analysis-uk/blob/master/00-img/api-screen.png?raw=true)
+
+
+
