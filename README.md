@@ -54,5 +54,13 @@
 
 ![api](https://github.com/OleksandrKosovan/sentiment-analysis-uk/blob/master/00-img/api-screen.png?raw=true)
 
+**Результати збору даних**
 
+Мені вдалося зібрати відгуки кількох великих інтернет магазинів, а саме: Rozetka, Citrus, MOYO, STYLUS, Foxtrot. [Jupyter Notebook](https://github.com/OleksandrKosovan/sentiment-analysis-uk/blob/master/02-data-collections/03-data-collection.ipynb)
+
+Структура даних є наступною: 
+
+[chart](https://github.com/OleksandrKosovan/sentiment-analysis-uk/blob/master/00-img/chart.png?raw=true)
+
+*P.S. Посилання на дані згодом.*
 
