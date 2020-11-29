@@ -16,3 +16,117 @@ Create anaconda environmentfor the project:
 3. [Data preparation](https://github.com/OleksandrKosovan/sentiment-analysis-uk)
 4. [Visualizations](https://github.com/OleksandrKosovan/sentiment-analysis-uk/tree/master/04-statistics-visualizations)
 5. [ML modeling](https://github.com/OleksandrKosovan/sentiment-analysis-uk/tree/master/05-modeling)
+6. [Scientific publications](https://github.com/OleksandrKosovan/sentiment-analysis-uk/tree/master/06-scientific-work)
+7. [Final script](https://github.com/OleksandrKosovan/sentiment-analysis-uk/tree/master/07-final-approach)
+
+### Results
+
+I made master's thesis and few publication based on this reseacrh.
+
+Results of machine learning modeling.
+
+
+**TF-IDF & Lematization results**
+
+| №   | Model name             | precision | recall | accuracy | f1-score |
+|-----|------------------------|-----------|--------|----------|----------|
+| 1.  | BernoulliNB            | 0.55      | 0.55   | 0.55     | 0.54     |
+| 2.  | Decision Tree          | 0.59      | 0.59   | 0.62     | 0.59     |
+| 3.  | Extra Tree             | 0.68      | 0.70   | 0.70     | 0.67     |
+| 4.  | KNN                    | 0.65      | 0.68   | 0.68     | 0.65     |
+| 5.  | Linear SVC             | 0.73      | 0.73   | 0.73     | 0.69     |
+| 6.  | Logistic Regression CV | 0.74      | 0.75   | 0.75     | 0.74     |
+| 7.  | MLP                    | 0.73      | 0.73   | 0.73     | 0.73     |
+| 8.  | Random Forest          | 0.68      | 0.69   | 0.69     | 0.68     |
+| 9.  | Ridge                  | 0.73      | 0.74   | 0.74     | 0.72     |
+| 10. | Ridge CV               | 0.73      | 0.74   | 0.74     | 0.72     |
+| 11. | SVC                    | 0.44      | 0.66   | 0.66     | 0.53     |
+| 12. | GBC                    | 0.72      | 0.73   | 0.73     | 0.72     |
+| 13. | Linear SVC 2           | 0.73      | 0.74   | 0.74     | 0.73     |
+| 14. | Logistic Regression    | 0.74      | 0.71   | 0.71     | 0.64     |
+| 15. | SGDC                   | 0.73      | 0.74   | 0.74     | 0.73     |
+| 16. | Perceptron             | 0.67      | 0.34   | 0.34     | 0.18     |
+| 17. | PAC                    | 0.72      | 0.72   | 0.72     | 0.72     |
+
+**TF-IDF & Stemming results**
+
+|     |                        |           |        |          |          |
+|-----|------------------------|-----------|--------|----------|----------|
+| №   | Model name             | precision | recall | accuracy | f1-score |
+| 1.  | BernoulliNB            | 0.55      | 0.52   | 0.52     | 0.52     |
+| 2.  | Decision Tree          | 0.62      | 0.62   | 0.62     | 0.62     |
+| 3.  | Extra Tree             | 0.67      | 0.68   | 0.68     | 0.62     |
+| 4.  | KNN                    | 0.60      | 0.63   | 0.63     | 0.60     |
+| 5.  | Linear SVC             | 0.71      | 0.63   | 0.63     | 0.50     |
+| 6.  | Logistic Regression CV | 0.71      | 0.72   | 0.72     | 0.71     |
+| 7.  | MLP                    | 0.71      | 0.72   | 0.72     | 0.70     |
+| 8.  | Random Forest          | 0.68      | 0.68   | 0.68     | 0.64     |
+| 9.  | Ridge                  | 0.69      | 0.69   | 0.69     | 0.65     |
+| 10. | Ridge CV               | 0.69      | 0.69   | 0.69     | 0.65     |
+| 11. | SVC                    | 0.68      | 0.65   | 0.65     | 0.54     |
+| 12. | GBC                    | 0.70      | 0.71   | 0.71     | 0.70     |
+| 13. | Linear SVC 2           | 0.71      | 0.71   | 0.71     | 0.69     |
+| 14. | Logistic Regression    | 0.67      | 0.65   | 0.65     | 0.54     |
+| 15. | SGDC                   | 0.68      | 0.67   | 0.67     | 0.61     |
+| 16. | Perceptron             | 0.68      | 0.67   | 0.67     | 0.59     |
+| 17. | PAC                    | 0.69      | 0.53   | 0.53     | 0.51     |
+
+**TF-IDF & Lematization and bigram results**
+
+|     |                        |           |        |          |          |
+|-----|------------------------|-----------|--------|----------|----------|
+| №   | Model name             | precision | recall | accuracy | f1-score |
+| 1.  | BernoulliNB            | 0.74      | 0.72   | 0.72     | 0.72     |
+| 2.  | Decision Tree          | 0.67      | 0.67   | 0.67     | 0.67     |
+| 3.  | Extra Tree             | 0.73      | 0.73   | 0.73     | 0.70     |
+| 4.  | KNN                    | 0.71      | 0.70   | 0.70     | 0.66     |
+| 5.  | Linear SVC             | 0.80      | 0.80   | 0.80     | 0.78     |
+| 6.  | Logistic Regression CV | 0.81      | 0.81   | 0.81     | 0.81     |
+| 7.  | MLP                    | 0.78      | 0.79   | 0.79     | 0.78     |
+| 8.  | Random Forest          | 0.72      | 0.73   | 0.73     | 0.71     |
+| 9.  | Ridge                  | 0.80      | 0.80   | 0.80     | 0.79     |
+| 10. | Ridge CV               | 0.80      | 0.80   | 0.80     | 0.79     |
+| 11. | SVC                    | 0.41      | 0.64   | 0.64     | 0.50     |
+| 12. | GBC                    | 0.79      | 0.79   | 0.79     | 0.78     |
+| 13. | Linear SVC 2           | 0.80      | 0.80   | 0.80     | 0.80     |
+| 14. | Logistic Regression    | 0.79      | 0.76   | 0.76     | 0.73     |
+| 15. | SGDC                   | 0.81      | 0.81   | 0.81     | 0.80     |
+| 16. | Perceptron             | 0.80      | 0.79   | 0.79     | 0.78     |
+| 17. | PAC                    | 0.80      | 0.80   | 0.80     | 0.80     |
+
+
+**TF-IDF & Stemming and bigram results**
+
+
+|     |                        |           |        |          |          |
+|-----|------------------------|-----------|--------|----------|----------|
+| №   | Model name             | precision | recall | accuracy | f1-score |
+| 1.  | BernoulliNB            | 0.66      | 0.64   | 0.64     | 0.64     |
+| 2.  | Decision Tree          | 0.64      | 0.64   | 0.64     | 0.64     |
+| 3.  | Extra Tree             | 0.76      | 0.71   | 0.71     | 0.67     |
+| 4.  | KNN                    | 0.62      | 0.64   | 0.64     | 0.56     |
+| 5.  | Linear SVC             | 0.79      | 0.77   | 0.77     | 0.75     |
+| 6.  | Logistic Regression CV | 0.79      | 0.79   | 0.79     | 0.79     |
+| 7.  | MLP                    | 0.77      | 0.78   | 0.78     | 0.77     |
+| 8.  | Random Forest          | 0.75      | 0.73   | 0.73     | 0.70     |
+| 9.  | Ridge                  | 0.77      | 0.76   | 0.76     | 0.75     |
+| 10. | Ridge CV               | 0.77      | 0.76   | 0.76     | 0.75     |
+| 11. | SVC                    | 0.79      | 0.76   | 0.76     | 0.74     |
+| 12. | GBC                    | 0.78      | 0.78   | 0.78     | 0.77     |
+| 13. | Linear SVC 2           | 0.78      | 0.78   | 0.78     | 0.77     |
+| 14. | Logistic Regression    | 0.75      | 0.70   | 0.70     | 0.64     |
+| 15. | SGDC                   | 0.79      | 0.77   | 0.77     | 0.75     |
+| 16. | Perceptron             | 0.75      | 0.58   | 0.58     | 0.56     |
+| 17. | PAC                    | 0.79      | 0.78   | 0.78     | 0.77     |
+
+**Difference between text preparation approaches**
+
+| Text preparation approach | Avg. f1-score | < 0,7 | >=0,7<0,8 | >=0,8 |
+|---------------------------|---------------|-------|-----------|-------|
+| Lematization              | 0,65          | 9     | 8         | 0     |
+| Stemming                  | 0,61          | 14    | 3         | 0     |
+| Lematization & bigram     | 0,74          | 3     | 10        | 4     |
+| Stemming & bigram         | 0,71          | 6     | 11        | 0     |
+
+
+
