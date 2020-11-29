@@ -128,5 +128,40 @@ Results of machine learning modeling.
 | Lematization & bigram     | 0,74          | 3     | 10        | 4     |
 | Stemming & bigram         | 0,71          | 6     | 11        | 0     |
 
+**Avg. results per ML model**
+
+| №   | Model name             | Avg. F1-score |
+|-----|------------------------|---------------|
+| 1.  | BernoulliNB            | 0,61          |
+| 2.  | Decision Tree          | 0,63          |
+| 3.  | Extra Tree             | 0,67          |
+| 4.  | KNN                    | 0,62          |
+| 5.  | Linear SVC             | 0,68          |
+| 6.  | Logistic Regression CV | 0,76          |
+| 7.  | MLP                    | 0,75          |
+| 8.  | Random Forest          | 0,68          |
+| 9.  | Ridge                  | 0,73          |
+| 10. | Ridge CV               | 0,73          |
+| 11. | SVC                    | 0,58          |
+| 12. | GBC                    | 0,74          |
+| 13. | Linear SVC 2           | 0,75          |
+| 14. | Logistic Regression    | 0,64          |
+| 15. | SGDC                   | 0,72          |
+| 16. | Perceptron             | 0.65          |
+| 17. | PAC                    | 0.79          |
 
 
+### Conclusion
+
+This paper solves the problem of building an intelligent system for analyzing the tone of customer reviews of online stores in Ukrainian. The following results were obtained within the work:
+
+The analysis of modern literary sources and existing solutions is carried out. Among the domestic studies, those related to natural language processing, text vectorization, analysis of the tonality of Ukrainian and English texts have been studied. The basic concepts, approaches and complexities of sentiment analysis are described.
+
+A database of reviews on online shopping services in Ukrainian has been collected. As a result, 1113 (36.7%) positive and 1923 (63.3%) negative responses were received. A statistical study of the most commonly used words in different categories of reviews. Recommendations for collecting text data from other sites and platforms are described.
+
+Text data were prepared based on several approaches, resulting in four sets of vectors transformed by lemmatization, stemming, and bigram use. Each step of language processing was described.
+68 models based on 17 machine learning algorithms and four word processing approaches were developed and evaluated. The comparative characteristics of the received estimations are carried out and the best approaches are chosen.
+
+The expediency and ways of implementing the results of work in the practice of enterprises, institutions that use online stores to achieve their goals are described. Two variants of software architecture for implementation and self-maintenance of the developed intelligent system are created.
+
+The main ways to improve existing approaches, models and concepts such as data collection, new model recommendations for testing are indicated.
