@@ -1,4 +1,8 @@
 
-Env for this project
+# Sentiment analysis of customer reviews (Ukrainian)
 
-conda create --name <env> --file requirements.txt
+### Get started
+
+Create anaconda environmentfor the project:
+
+`conda create --name <env> --file requirements.txt`
