@@ -81,18 +81,18 @@ Results of machine learning modeling.
 | 3.  | Extra Tree             | 0.73      | 0.73   | 0.73     | 0.70     |
 | 4.  | KNN                    | 0.71      | 0.70   | 0.70     | 0.66     |
 | 5.  | Linear SVC             | 0.80      | 0.80   | 0.80     | 0.78     |
-| 6.  | Logistic Regression CV | 0.81      | 0.81   | 0.81     | 0.81     |
+| 6.  | **Logistic Regression CV** | 0.81      | 0.81   | 0.81     | **0.81**     |
 | 7.  | MLP                    | 0.78      | 0.79   | 0.79     | 0.78     |
 | 8.  | Random Forest          | 0.72      | 0.73   | 0.73     | 0.71     |
 | 9.  | Ridge                  | 0.80      | 0.80   | 0.80     | 0.79     |
 | 10. | Ridge CV               | 0.80      | 0.80   | 0.80     | 0.79     |
 | 11. | SVC                    | 0.41      | 0.64   | 0.64     | 0.50     |
 | 12. | GBC                    | 0.79      | 0.79   | 0.79     | 0.78     |
-| 13. | Linear SVC 2           | 0.80      | 0.80   | 0.80     | 0.80     |
-| 14. | Logistic Regression    | 0.79      | 0.76   | 0.76     | 0.73     |
-| 15. | SGDC                   | 0.81      | 0.81   | 0.81     | 0.80     |
+| 13. | **Linear SVC 2**           | 0.80      | 0.80   | 0.80     | **0.80**     |
+| 14. | Logistic Regression    | 0.79      | 0.76   | 0.76     | 0.73    |
+| 15. | **SGDC**                   | 0.81      | 0.81   | 0.81     | **0.80**     |
 | 16. | Perceptron             | 0.80      | 0.79   | 0.79     | 0.78     |
-| 17. | PAC                    | 0.80      | 0.80   | 0.80     | 0.80     |
+| 17. | **PAC**                    | 0.80      | 0.80   | 0.80     | **0.80**     |
 
 
 **TF-IDF & Stemming and bigram results**
@@ -125,7 +125,7 @@ Results of machine learning modeling.
 |---------------------------|---------------|-------|-----------|-------|
 | Lematization              | 0,65          | 9     | 8         | 0     |
 | Stemming                  | 0,61          | 14    | 3         | 0     |
-| Lematization & bigram     | 0,74          | 3     | 10        | 4     |
+| **Lematization & bigram**     | 0,74          | 3     | 10        | 4     |
 | Stemming & bigram         | 0,71          | 6     | 11        | 0     |
 
 **Avg. results per ML model**
@@ -148,7 +148,7 @@ Results of machine learning modeling.
 | 14. | Logistic Regression    | 0,64          |
 | 15. | SGDC                   | 0,72          |
 | 16. | Perceptron             | 0.65          |
-| 17. | PAC                    | 0.79          |
+| 17. | **PAC**                    | 0.79          |
 
 
 ### Conclusion
