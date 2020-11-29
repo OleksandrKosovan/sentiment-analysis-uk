@@ -18,3 +18,9 @@ Also, this functions was test on news text from BBC website.
 
 **03-stemming-ukrainian-text.ipynb**
 
+Install needed package for the stemming:
+
+`pip install git+https://github.com/Desklop/Uk_Stemmer`
+
+There are testing of ukrainian stemmer based on the simple sentence.
+
