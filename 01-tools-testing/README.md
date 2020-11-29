@@ -2,6 +2,8 @@
 
 There are Jupyter Notebooks, where we tested different tool for Ukrainian NLP.
 
+### Text preparation
+
 **01-base-text-preparation-example.ipynb**
 
 This notebook contains function for text preparatio: 
@@ -12,6 +14,8 @@ This notebook contains function for text preparatio:
 - Replace all interger occurrences in list of tokenized words with textual representation
 
 Also, this functions was test on news text from BBC website.
+
+### Lemmatization
 
 **02-lemmatization-ukrainian-texts.ipynb**
 
@@ -25,6 +29,7 @@ And use this command for lemmatization:
 
 `groovy LemmatizeText.groovy -i <input_file> -o <output_file>`
 
+### Stemming
 
 **03-stemming-ukrainian-text.ipynb**
 
