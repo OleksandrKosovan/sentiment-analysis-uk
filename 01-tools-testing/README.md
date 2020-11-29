@@ -15,6 +15,16 @@ Also, this functions was test on news text from BBC website.
 
 **02-lemmatization-ukrainian-texts.ipynb**
 
+Lemetization flow is more difficalt than stemming. We used [LanguageTool API NLP UK](https://github.com/brown-uk/nlp_uk) for it.
+
+We need to clone this repository:
+
+`git clone https://github.com/brown-uk/nlp_uk.git`
+
+And use this command for lemmatization:
+
+`groovy LemmatizeText.groovy -i <input_file> -o <output_file>`
+
 
 **03-stemming-ukrainian-text.ipynb**
 
